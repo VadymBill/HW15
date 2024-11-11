@@ -1,0 +1,30 @@
+.bg-box{
+    width:1000px;        /* Ширина блоку */
+    height: 1000px;       /* Висота блоку */
+    background-image: 
+      url(lamp-png-34914.png),    /* Зображення для верхнього краю */
+      url(https://vignette.wikia.nocookie.net/mashaandthebear/images/e/e0/%D0%81%D0%B6%D0%B8%D0%BA.png/revision/latest?cb=20180209130328&path-prefix=ru),  /* Зображення для правого краю */
+      url(green-png-44873.png), /* Зображення для нижнього краю */
+      url(https://avatanplus.com/files/resources/mid/58eb07b830eab15b56162788.png),   /* Зображення для лівого краю */
+      url(https://img.goodfon.ru/wallpaper/big/0/5b/pole-zelen-trava-dom-derevya.webp); /* Зображення для центру */
+      background-position: 
+      top center,          /* Верхнє зображення — по центру по горизонталі */
+      center right,        /* Праве зображення — по центру по вертикалі */
+      bottom center,       /* Нижнє зображення — по центру по горизонталі */
+      center left,         /* Ліве зображення — по центру по вертикалі */
+      center center;       /* Центрове зображення — по центру по обох осях */
+    
+    background-repeat: 
+      repeat-x,            /* Верхнє зображення буде повторюватися по горизонталі */
+      repeat-y,            /* Праве зображення буде повторюватися по вертикалі */
+      repeat-x,            /* Нижнє зображення буде повторюватися по горизонталі */
+      repeat-y,            /* Ліве зображення буде повторюватися по вертикалі */
+      no-repeat;  
+      background-size: 
+      50px,
+      50px,
+      50px,
+      50px,
+      300px
+      ;
+}
